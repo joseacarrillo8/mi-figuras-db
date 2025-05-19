@@ -34,7 +34,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-
 #filters input,
 #filters select {
   padding: 10px;
@@ -314,7 +313,74 @@ h1 {
   white-space: nowrap;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .hidden {
   display: none;
 }
 
+/* --- Responsive para móviles --- */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #filters {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px 5px;
+  }
+
+  #filters input,
+  #filters select {
+    min-width: auto;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #figures-container {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 15px;
+    padding: 0 5px;
+  }
+
+  .figure {
+    max-width: 100%;
+    padding: 8px 10px;
+  }
+
+  .figure img {
+    height: 180px;
+  }
+
+  .figure h3 {
+    font-size: 14px;
+  }
+
+  .figure p,
+  .figure a,
+  .price-input,
+  .btn-have {
+    font-size: 13px;
+  }
+
+  .price-input {
+    width: 100%;
+  }
+}
+
+/* Para pantallas muy pequeñas (móviles muy pequeños) */
+@media (max-width: 400px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  #filters {
+    padding: 8px 3px;
+  }
+
+  #filters input,
+  #filters select {
+    font-size: 14px;
+  }
+}
