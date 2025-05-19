@@ -841,7 +841,7 @@ const figures = [
   type: "accessory",     // clave para distinguirlo como accesorio
   saga: "Dragon Ball Classic",
   number: null,          // sin número de figura
-  image: "img/Tamashii Stage Dragon Ball 'Event Exclusive Metallic Color Edition'.png",  // ideal usar nombre archivo simple y sin espacios
+  image: "img/Tamashii Stage Dragon Ball 'Event Exclusive Metallic Color Edition'.PNG",  // ideal usar nombre archivo simple y sin espacios
   link: "https://tu-enlace-a-la-ficha.com/accessory-tamashii-stage"
 },
   {
@@ -881,7 +881,7 @@ const figures = [
   bodyType: "3.0",
   saga: "Dragon Ball Z",
   number: "088",
-  image: "img/088.png",
+  image: "img/088.PNG",
   link: "https://tu-enlace-a-la-ficha.com/ginyu"
 },
 {
@@ -891,7 +891,7 @@ const figures = [
   bodyType: "Especial",
   saga: "Dragon Ball Z",
   number: "089",
-  image: "img/089.png",
+  image: "img/089.PNG",
   link: "https://tu-enlace-a-la-ficha.com/great-ape-vegeta"
 },
 {
@@ -901,7 +901,7 @@ const figures = [
   bodyType: "Kid 1.0",
   saga: "Dragon Ball Classic",
   number: "090",
-  image: "img/090.png",
+  image: "img/090.PNG",
   link: "https://tu-enlace-a-la-ficha.com/chi-chi-kid-era"
 },
 {
@@ -911,7 +911,7 @@ const figures = [
   bodyType: "3.0",
   saga: "Dragon Ball Super",
   number: "091",
-  image: "img/091.png",
+  image: "img/091.PNG",
   link: "https://tu-enlace-a-la-ficha.com/jiren-final-battle"
 },
 {
@@ -923,7 +923,7 @@ const figures = [
   accessoryType: "Vehículo",
   saga: "Dragon Ball Classic",
   number: null,
-  image: "img/Bulma's motorcycle 'Hoipoi capsule No.9'.png",
+  image: "img/Bulma's motorcycle 'Hoipoi capsule No.9'.PNG",
   link: "https://tu-enlace-a-la-ficha.com/bulmas-motorcycle"
 },
 {
@@ -933,7 +933,7 @@ const figures = [
   bodyType: "2.0",
   saga: "Dragon Ball Super",
   number: "092",
-  image: "img/092.png",
+  image: "img/092.PNG",
   link: "https://tu-enlace-a-la-ficha.com/ssgss-vegito"
 },
 {
@@ -943,7 +943,7 @@ const figures = [
   bodyType: "2.0",
   saga: "Dragon Ball Super",
   number: "093",
-  image: "img/093.png",
+  image: "img/093.PNG",
   link: "https://tu-enlace-a-la-ficha.com/zamasu"
 },
 {
@@ -953,7 +953,7 @@ const figures = [
   bodyType: "2.0",
   saga: "Dragon Ball Z",
   number: "094",
-  image: "img/094.png",
+  image: "img/094.PNG",
   link: "https://tu-enlace-a-la-ficha.com/piccolo-proud-namekian"
 },
 {
@@ -963,7 +963,7 @@ const figures = [
   bodyType: "Kid 1.0",
   saga: "Dragon Ball Z",
   number: "095",
-  image: "img/095.png",
+  image: "img/095.PNG",
   link: "https://tu-enlace-a-la-ficha.com/son-gohan-kid-era"
 },
 {
@@ -973,7 +973,7 @@ const figures = [
   bodyType: "3.0",
   saga: "Dragon Ball Z",
   number: "096",
-  image: "img/096.png",
+  image: "img/096.PNG",
   link: "https://tu-enlace-a-la-ficha.com/jeice"
 },
 {
@@ -983,7 +983,7 @@ const figures = [
   bodyType: "2.5",
   saga: "Dragon Ball Z",
   number: "097",
-  image: "img/097.png",
+  image: "img/097.PNG",
   link: "https://tu-enlace-a-la-ficha.com/bardock"
 },
 {
@@ -993,7 +993,7 @@ const figures = [
   bodyType: "3.0",
   saga: "Dragon Ball Z",
   number: "098",
-  image: "img/098.png",
+  image: "img/098.PNG",
   link: "https://tu-enlace-a-la-ficha.com/recoome"
 },
 {
@@ -1003,7 +1003,7 @@ const figures = [
   bodyType: "3.0",
   saga: "Dragon Ball Z",
   number: "099",
-  image: "img/099.png",
+  image: "img/099.PNG",
   link: "https://tu-enlace-a-la-ficha.com/raditz"
 },
 {
@@ -1013,7 +1013,7 @@ const figures = [
   bodyType: "3.0",
   saga: "Dragon Ball Z",
   number: "100",
-  image: "img/100.png",
+  image: "img/100.PNG",
   link: "https://tu-enlace-a-la-ficha.com/frieza-pod"
 },
 {
@@ -1023,7 +1023,7 @@ const figures = [
   bodyType: "3.0",
   saga: "Dragon Ball Z",
   number: "101",
-  image: "img/101.png",
+  image: "img/101.PNG",
   link: "https://tu-enlace-a-la-ficha.com/burter-guldo"
 },
 {
@@ -1033,7 +1033,7 @@ const figures = [
   bodyType: "2.0",
   saga: "Dragon Ball Z",
   number: "102",
-  image: "img/102.png",
+  image: "img/102.PNG",
   link: "https://tu-enlace-a-la-ficha.com/ssj-full-power-goku"
 },
 {
@@ -1043,7 +1043,7 @@ const figures = [
   bodyType: "2.5",
   saga: "Dragon Ball Super",
   number: "103",
-  image: "img/103.png",
+  image: "img/103.PNG",
   link: "https://tu-enlace-a-la-ficha.com/hit"
 },
 {
@@ -1053,7 +1053,7 @@ const figures = [
   bodyType: "1.5",
   saga: "Dragon Ball Classic",
   number: "104",
-  image: "img/104.png",
+  image: "img/104.PNG",
   link: "https://tu-enlace-a-la-ficha.com/lunch"
 },
 {
@@ -1063,7 +1063,7 @@ const figures = [
   bodyType: "Especial",
   saga: "DBZ - Battle of Gods",
   number: "105",
-  image: "img/105.png",
+  image: "img/105.PNG",
   link: "https://tu-enlace-a-la-ficha.com/whis-event"
 },
 {
@@ -1073,7 +1073,7 @@ const figures = [
   bodyType: "2.0",
   saga: "DBZ - Battle of Gods",
   number: "106",
-  image: "img/106.png",
+  image: "img/106.PNG",
   link: "https://tu-enlace-a-la-ficha.com/ssg-goku-event"
 },
 {
@@ -1083,7 +1083,7 @@ const figures = [
   bodyType: "1.5",
   saga: "DBZ - Battle of Gods",
   number: "107",
-  image: "img/107.png",
+  image: "img/107.PNG",
   link: "https://tu-enlace-a-la-ficha.com/beerus-event"
 },
 {
@@ -1093,7 +1093,7 @@ const figures = [
   bodyType: "2.0",
   saga: "Dragon Ball Z",
   number: "108",
-  image: "img/108.png",
+  image: "img/108.PNG",
   link: "https://tu-enlace-a-la-ficha.com/nappa-event"
 },
 {
@@ -1105,7 +1105,7 @@ const figures = [
   accessoryType: "Soporte",
   saga: "Dragon Ball Super",
   number: null,
-  image: "img/Tamashii Stage Dragon Ball 'Event Exclusive Edition 2021'.png",
+  image: "img/Tamashii Stage Dragon Ball 'Event Exclusive Edition 2021'.PNG",
   link: "https://tu-enlace-a-la-ficha.com/tamashii-stage-2021"
 },
 {
@@ -1117,7 +1117,7 @@ const figures = [
   accessoryType: "Diorama",
   saga: "Dragon Ball Z",
   number: null,
-  image: "img/Son Goku's Harahachibunme Set.png",
+  image: "img/Son Goku's Harahachibunme Set.PNG",
   link: "https://tu-enlace-a-la-ficha.com/goku-harahachibunme"
 },
 {
