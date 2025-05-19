@@ -2133,7 +2133,6 @@ const figures = [
 
 ];
 
-f// LocalStorage helpers
 function loadCollection() {
   return JSON.parse(localStorage.getItem('myCollection')) || {};
 }
@@ -2153,11 +2152,17 @@ function savePrices(prices) {
   localStorage.setItem('myPrices', JSON.stringify(prices));
 }
 
-// Filtros dinámicos
 function populateSagaFilter() {
   const filterSaga = document.getElementById('filterSaga');
-  const uniqueSagas = Array.from(new Set(figures.filter(f => f.saga).map(f => f.saga))).sort();
+
+  const uniqueSagas = Array.from(new Set(
+    figures
+      .filter(fig => fig.saga)
+      .map(fig => fig.saga)
+  )).sort();
+
   filterSaga.innerHTML = '<option value="all">Todas las sagas</option>';
+
   uniqueSagas.forEach(saga => {
     const option = document.createElement('option');
     option.value = saga;
@@ -2168,8 +2173,15 @@ function populateSagaFilter() {
 
 function populateYearFilter() {
   const filterYear = document.getElementById('filterYear');
-  const uniqueYears = Array.from(new Set(figures.filter(f => f.year).map(f => f.year))).sort((a,b)=>a-b);
+
+  const uniqueYears = Array.from(new Set(
+    figures
+      .filter(f => f.year)
+      .map(f => f.year)
+  )).sort((a, b) => a - b);
+
   filterYear.innerHTML = '<option value="all">Todos los años</option>';
+
   uniqueYears.forEach(year => {
     const option = document.createElement('option');
     option.value = year;
@@ -2180,8 +2192,15 @@ function populateYearFilter() {
 
 function populateReleaseFilter() {
   const filterRelease = document.getElementById('filterRelease');
-  const uniqueReleases = Array.from(new Set(figures.filter(f => f.releaseType).map(f => f.releaseType))).sort();
+
+  const uniqueReleases = Array.from(new Set(
+    figures
+      .filter(f => f.releaseType)
+      .map(f => f.releaseType)
+  )).sort();
+
   filterRelease.innerHTML = '<option value="all">Todos los tipos</option>';
+
   uniqueReleases.forEach(release => {
     const option = document.createElement('option');
     option.value = release;
@@ -2189,6 +2208,8 @@ function populateReleaseFilter() {
     filterRelease.appendChild(option);
   });
 }
+
+
 
 function renderFigures() {
   const container = document.getElementById('figures-container');
@@ -2199,30 +2220,28 @@ function renderFigures() {
   const release = document.getElementById('filterRelease').value;
   const altVersionFilter = document.getElementById('filterAltVersion').checked;
   const onlyAccessories = document.getElementById('filterAccessory').checked;
+  const review = loadReview();
 
   const collection = loadCollection();
-  const review = loadReview();
-  const prices = loadPrices();
-
   container.innerHTML = "";
 
-  let filtered = figures.filter(f =>
-    f.name.toLowerCase().includes(search) &&
-    (have === "all" || (have === "have" && collection[f.number]) || (have === "missing" && !collection[f.number])) &&
-    (year === "all" || f.year == year) &&
-    (saga === "all" || f.saga === saga) &&
-    (release === "all" || f.releaseType === release) &&
-    (!altVersionFilter || review[f.number]) &&
-    (!onlyAccessories || f.type === "accessory")
-  );
+ let filtered = figures.filter(f =>
+  f.name.toLowerCase().includes(search) &&
+  (have === "all" || (have === "have" && collection[f.number]) || (have === "missing" && !collection[f.number])) &&
+  (year === "all" || f.year == year) &&
+  (saga === "all" || f.saga === saga) &&
+  (release === "all" || f.releaseType === release) &&
+  (!altVersionFilter || review[f.number]) &&
+  (!onlyAccessories || f.type === "accessory")
+);
 
-  // Actualizar contador
+ // Actualizar contador
   const countElement = document.getElementById('figuresCount');
   if (countElement) {
     countElement.textContent = `Mostrando ${filtered.length} figura${filtered.length !== 1 ? 's' : ''}`;
   }
 
-  // Ordenar
+
   const sortBy = document.getElementById('sortBy').value;
   if (sortBy === "name") {
     filtered.sort((a, b) => a.name.localeCompare(b.name));
@@ -2255,7 +2274,7 @@ function renderFigures() {
         <strong>Saga:</strong> ${figure.saga}<br>
         <strong>Lanzamiento:</strong> ${figure.releaseType}
       </p>
-      <a href="${figure.link}" target="_blank" rel="noopener">Ver ficha</a>
+      <a href="${figure.link}" target="_blank">Ver ficha</a>
     `;
 
     const btn = document.createElement('button');
@@ -2267,54 +2286,58 @@ function renderFigures() {
       renderFigures();
     };
     div.appendChild(btn);
+	
+const review = loadReview();
+const altVersionCheckbox = document.createElement('label');
+altVersionCheckbox.style.display = 'block';
+altVersionCheckbox.style.marginTop = '5px';
 
-    // Checkbox "otra versión"
-    const altVersionCheckbox = document.createElement('label');
-    altVersionCheckbox.style.display = 'block';
-    altVersionCheckbox.style.marginTop = '5px';
+const checkbox = document.createElement('input');
+checkbox.type = 'checkbox';
+checkbox.checked = review[figure.number] || false;
+checkbox.addEventListener('change', () => {
+  review[figure.number] = checkbox.checked;
+  saveReview(review);
+  renderFigures();
+});
 
-    const checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.checked = review[figure.number] || false;
-    checkbox.addEventListener('change', () => {
-      review[figure.number] = checkbox.checked;
-      saveReview(review);
-      renderFigures();
-    });
+altVersionCheckbox.appendChild(checkbox);
+altVersionCheckbox.appendChild(document.createTextNode(' La tengo en otra versión'));
 
-    altVersionCheckbox.appendChild(checkbox);
-    altVersionCheckbox.appendChild(document.createTextNode(' La tengo en otra versión'));
+div.appendChild(altVersionCheckbox);
 
-    div.appendChild(altVersionCheckbox);
+const prices = loadPrices();
+const priceInput = document.createElement('input');
+priceInput.type = 'number';
+priceInput.placeholder = 'Precio medio (€)';
+priceInput.value = prices[figure.number] || '';
+priceInput.className = 'price-input';
+priceInput.addEventListener('change', () => {
+  const value = priceInput.value.trim();
+  if (value === '' || isNaN(value) || Number(value) < 0) {
+    delete prices[figure.number]; // Elimina precio si es inválido o vacío
+  } else {
+    prices[figure.number] = Number(value).toFixed(2); // Guarda con 2 decimales
+  }
+  savePrices(prices);
+  renderFigures();  // Opcional, para refrescar (si quieres)
+});
 
-    // Input precio
-    const priceInput = document.createElement('input');
-    priceInput.type = 'number';
-    priceInput.placeholder = 'Precio medio (€)';
-    priceInput.value = prices[figure.number] || '';
-    priceInput.className = 'price-input';
-    priceInput.addEventListener('change', () => {
-      const value = priceInput.value.trim();
-      if (value === '' || isNaN(value) || Number(value) < 0) {
-        delete prices[figure.number];
-      } else {
-        prices[figure.number] = Number(value).toFixed(2);
-      }
-      savePrices(prices);
-      renderFigures();
-    });
 
-    div.appendChild(priceInput);
+div.appendChild(priceInput);
+
+	
 
     container.appendChild(div);
   });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+	// Poblar automáticamente el filtro de sagas
   populateSagaFilter();
   populateYearFilter();
-  populateReleaseFilter();
-
+  populateReleaseFilter()
+  
   document.querySelectorAll('#filters input, #filters select').forEach(el => {
     el.addEventListener('input', renderFigures);
     el.addEventListener('change', renderFigures);
@@ -2322,15 +2345,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   renderFigures();
 
-  // Toggle filtros para móvil
-  const toggleBtn = document.getElementById('toggleFilters');
-  const filtersContainer = document.getElementById('filters-container');
-  toggleBtn.addEventListener('click', () => {
-    filtersContainer.classList.toggle('hidden');
-  });
-
-  // Scroll-top button
+  // Código del botón scroll-top
   const scrollBtn = document.getElementById("scrollTopBtn");
+
   window.addEventListener("scroll", () => {
     if (window.scrollY > 300) {
       scrollBtn.classList.add("show");
@@ -2340,9 +2357,19 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   scrollBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   });
+  
+  document.getElementById('toggleFilters').addEventListener('click', () => {
+  const filters = document.getElementById('filters-container');
+  filters.classList.toggle('hidden');
 });
+
+});
+
 
 
 
