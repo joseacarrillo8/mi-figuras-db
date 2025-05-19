@@ -332,22 +332,8 @@ h1 {
   }
 
   #filters {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding: 10px;
-    gap: 10px;
-    justify-content: flex-start;
-    align-items: center;
-    scroll-snap-type: x mandatory;
-  }
-
-  #filters input,
-  #filters select,
-  .accordion,
-  #figuresCount {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
 }
-
