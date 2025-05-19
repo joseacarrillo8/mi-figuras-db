@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi colección S.H. Figuarts Dragon Ball</title>
+  <link rel="stylesheet" href="styles.css" />
+
+ 
+
+</head>
+<body>
+
+<h1>Mi colección S.H. Figuarts Dragon Ball</h1>
+
+<div id="filters">
+<!-- Contador de figuras mostradas -->
+  <div id="figuresCount" style="margin-top: 10px; font-weight: bold;">
+    Mostrando 0 figuras
+  </div>
+  <input type="text" id="search" placeholder="Buscar por nombre..." />
+  <select id="filterHave">
+    <option value="all">Todas</option>
+    <option value="have">Solo las que tengo</option>
+    <option value="missing">Solo las que me faltan</option>
+  </select>
+  <select id="filterYear">
+    <option value="all">Todos los años</option>
+  </select>
+  <select id="filterSaga">
+      <option value="all">Todas las sagas</option>
+      <!-- Las opciones se rellenan dinámicamente desde JS -->
+    </select>
+  <select id="filterRelease">
+    <option value="all">Todos los lanzamientos</option>
+  </select>
+<select id="sortBy">
+  <option value="default">Ordenar por...</option>
+  <option value="name">Nombre (A-Z)</option>
+  <option value="year">Año (asc)</option>
+  <option value="yearDesc">Año (desc)</option>
+  <option value="number">Número (asc)</option>
+  <option value="numberDesc">Número (desc)</option>
+</select>
+  <label class="checkbox-container">
+	<input type="checkbox" id="filterAltVersion" class="styled-checkbox"/>
+	<span class="checkmark"></span>
+	La tengo en otra versión
+ </label>
+ <label class="checkbox-container">
+  <input type="checkbox" id="filterAccessory" class="styled-checkbox">
+  <span class="checkmark"></span>
+  Mostrar solo accesorios
+ </label>
+
+
+</div>
+
+<div id="figures-container"></div>
+<script src="js/script.js"></script>
+<button id="scrollTopBtn" title="Volver arriba">↑</button>
+
+</body>
+</html>
