@@ -2362,12 +2362,15 @@ document.addEventListener('DOMContentLoaded', () => {
       behavior: "smooth"
     });
   });
-});
-
-document.getElementById('toggleFilters').addEventListener('click', () => {
+  
+  document.getElementById('toggleFilters').addEventListener('click', () => {
   const filters = document.getElementById('filters-container');
   filters.classList.toggle('hidden');
 });
+
+});
+
+
 
 
 
