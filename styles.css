@@ -314,3 +314,26 @@ h1 {
   white-space: nowrap;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#toggleFilters {
+  display: none;
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#filters-container.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #toggleFilters {
+    display: block;
+  }
+
+  #filters {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

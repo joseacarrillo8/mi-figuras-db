@@ -2364,6 +2364,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+document.getElementById('toggleFilters').addEventListener('click', () => {
+  const filters = document.getElementById('filters-container');
+  filters.classList.toggle('hidden');
+});
+
 
 
 
