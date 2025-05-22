@@ -412,6 +412,26 @@ const figures = [
   releaseType: "Exclusive Event SDCC"
 },
 {
+  name: "Nappa"",
+  image: "img/042.PNG",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Nappa/",
+  number: "042",
+  year: 2017,
+  bodyType: "2.0",
+  saga: "Dragon Ball Z",
+  releaseType: "Tamashii Web Exclusive"
+},
+{
+  name: "Super Saiyan 3 Son Goku",
+  image: "img/043.PNG",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-3-Son-Goku-V2/",
+  number: "043",
+  year: 2017,
+  bodyType: "2.0",
+  saga: "Dragon Ball Z",
+  releaseType: "Regular"
+},
+{
   name: "Shenron",
   image: "img/044.PNG",
   link: "#",
