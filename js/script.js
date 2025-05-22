@@ -412,7 +412,7 @@ const figures = [
   releaseType: "Exclusive Event SDCC"
 },
 {
-  name: "Nappa"",
+  name: "Nappa",
   image: "img/042.PNG",
   link: "#",
   number: "042",
