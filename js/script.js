@@ -2,7 +2,7 @@ const figures = [
   {
     name: "Piccolo",
     image: "img/001.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-The-First-Dragon-Ball-S.H.-Figuarts/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-El-primer-SH-Figuarts-de-Dragon-Ball/",
     number: "001",
     year: 2009,
     bodyType: "1.0",
@@ -12,7 +12,7 @@ const figures = [
   {
     name: "Super Saiyan Son Goku",
     image: "img/002.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/goku-ssj-2010/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Goku/",
     number: "002",
     year: 2010,
     bodyType: "1.0",
@@ -22,7 +22,7 @@ const figures = [
   {
     name: "Super Saiyan Son Gohan",
     image: "img/003.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/gohan-ssj-2010/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Gohan/",
     number: "003",
     year: 2010,
     bodyType: "1.0",
@@ -33,7 +33,7 @@ const figures = [
   {
     name: "Super Saiyan Son Goku (Special Color Edition)",
     image: "img/004.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/goku-ssj-sdcc-2011/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Goku-Special-Color-Edition/",
     number: "004",
     year: 2011,
     bodyType: "1.0",
@@ -43,7 +43,7 @@ const figures = [
   {
     name: "Super Saiyan Vegeta",
     image: "img/005.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/super-saiyan-vegeta/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Vegeta/",
     number: "005",
     year: 2011,
     bodyType: "1.0",
@@ -53,7 +53,7 @@ const figures = [
   {
   name: "Super Saiyan 3 Son Goku",
   image: "img/006.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-3-Son-Goku/",
   number: "006",
   year: 2012,
   bodyType: "1.0",
@@ -63,7 +63,7 @@ const figures = [
 {
   name: "Trunks",
   image: "img/007.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Trunks/",
   number: "007",
   year: 2012,
   bodyType: "1.5",
@@ -73,7 +73,7 @@ const figures = [
 {
   name: "Super Saiyan Son Gohan (Special Color Edition)",
   image: "img/008.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Gohan-Special-Color-Edition/",
   number: "008",
   year: 2012,
   bodyType: "1.0",
@@ -83,7 +83,7 @@ const figures = [
 {
   name: "Perfect Cell",
   image: "img/009.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Perfect-Cell/",
   number: "009",
   year: 2012,
   bodyType: "1.5",
@@ -93,7 +93,7 @@ const figures = [
 {
   name: "Vegeta",
   image: "img/010.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Vegeta-00001/",
   number: "010",
   year: 2013,
   bodyType: "1.0",
@@ -103,7 +103,7 @@ const figures = [
 {
   name: "Final Form Frieza",
   image: "img/011.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Final-Form-Frieza/",
   number: "011",
   year: 2013,
   bodyType: "1.5",
@@ -113,7 +113,7 @@ const figures = [
 {
   name: "Piccolo (Special color edition)",
   image: "img/012.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-Special-color-edition/",
   number: "012",
   year: 2013,
   bodyType: "1.0",
@@ -123,7 +123,7 @@ const figures = [
 {
   name: "Klilyn",
   image: "img/013.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Klilyn/",
   number: "013",
   year: 2013,
   bodyType: "1.5",
@@ -133,7 +133,7 @@ const figures = [
 {
   name: "Son Goku",
   image: "img/014.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku/",
   number: "014",
   year: 2014,
   bodyType: "1.0",
@@ -143,7 +143,7 @@ const figures = [
 {
   name: "Android no.18",
   image: "img/015.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Android-no.18/",
   number: "015",
   year: 2014,
   bodyType: "1.0",
@@ -153,7 +153,7 @@ const figures = [
 {
   name: "Son Goku 'México 2015'",
   image: "img/016.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Mexico-2015/",
   number: "016",
   year: 2014,
   bodyType: "1.0",
@@ -163,7 +163,7 @@ const figures = [
 {
   name: "Vegeta «Original Animation Color Edition»",
   image: "img/017.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Vegeta-Original-Animation-Color-Edition/",
   number: "017",
   year: 2014,
   bodyType: "1.0",
@@ -174,7 +174,7 @@ const figures = [
   {
     name: "Android no.17",
     image: "img/018.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Android-no.17/",
     number: 18,
     year: 2014,
     bodyType: "1.5",
@@ -184,7 +184,7 @@ const figures = [
   {
     name: "Broly",
     image: "img/019.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Broly/",
     number: 19,
     year: 2014,
     bodyType: "1.5",
@@ -194,7 +194,7 @@ const figures = [
   {
     name: "Android no.16",
     image: "img/020.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Android-no.16/",
     number: 20,
     year: 2015,
     bodyType: "1.5",
@@ -204,7 +204,7 @@ const figures = [
   {
     name: "Vegetto",
     image: "img/021.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Vegetto/",
     number: 21,
     year: 2015,
     bodyType: "1.0",
@@ -214,7 +214,7 @@ const figures = [
   {
     name: "Ultimate Son Gohan",
     image: "img/022.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Ultimate-Son-Gohan/",
     number: 22,
     year: 2015,
     bodyType: "1.0",
@@ -224,7 +224,7 @@ const figures = [
   {
     name: "Super Saiyan God Super Saiyan Son Goku",
     image: "img/023.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Super-Saiyan-Son-Goku/",
     number: 23,
     year: 2015,
     bodyType: "1.0",
@@ -234,7 +234,7 @@ const figures = [
   {
     name: "Golden Frieza",
     image: "img/024.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Golden-Frieza/",
     number: 24,
     year: 2015,
     bodyType: "1.5",
@@ -244,7 +244,7 @@ const figures = [
   {
     name: 'Super Saiyan Son Goku "Super Warrior Awakening ver."',
     image: "img/025.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Goku-Super-Warrior-Awakening-ver./",
     number: 25,
     year: 2015,
     bodyType: "2.0",
@@ -254,7 +254,7 @@ const figures = [
   {
     name: 'Son Goku «Frieza Saga Ver.»',
     image: "img/026.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Frieza-Saga-Ver./",
     number: 26,
     year: 2015,
     bodyType: "1.0",
@@ -264,7 +264,7 @@ const figures = [
   {
     name: 'Super Saiyan Vegeta "Premium Color Edition"',
     image: "img/027.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Vegeta-Premium-Color-Edition/",
     number: 27,
     year: 2015,
     bodyType: "1.0",
@@ -274,7 +274,7 @@ const figures = [
   {
     name: 'Trunks "Premium Color Edition"',
     image: "img/028.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Trunks-Premium-Color-Edition/",
     number: 28,
     year: 2016,
     bodyType: "1.5",
@@ -284,7 +284,7 @@ const figures = [
   {
     name: "Beerus",
     image: "img/029.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Beerus/",
     number: 29,
     year: 2016,
     bodyType: "1.5",
@@ -294,7 +294,7 @@ const figures = [
   {
   name: "Super Saiyan God Super Saiyan Vegeta",
   image: "img/030.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Super-Saiyan-Vegeta/",
   number: "030",
   year: 2016,
   bodyType: "1.0",
@@ -304,7 +304,7 @@ const figures = [
 {
   name: "Super Saiyan Trunks",
   image: "img/031.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Trunks/",
   number: "031",
   year: 2016,
   bodyType: "2.0",
@@ -314,7 +314,7 @@ const figures = [
 {
   name: "Broly 'Premium color edition'",
   image: "img/032.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Broly-Premium-color-edition/",
   number: "032",
   year: 2016,
   bodyType: "1.5",
@@ -324,7 +324,7 @@ const figures = [
 {
   name: "Whis",
   image: "img/033.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Whis/",
   number: "033",
   year: 2016,
   bodyType: "Especial",
@@ -334,7 +334,7 @@ const figures = [
 {
   name: "Super Saiyan Vegeta",
   image: "img/034.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Vegeta-V2/",
   number: "034",
   year: 2016,
   bodyType: "2.0",
@@ -344,7 +344,7 @@ const figures = [
 {
   name: "Super Saiyan Son Gohan",
   image: "img/035.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Gohan-Battle-Damage/",
   number: "035",
   year: 2017,
   bodyType: "2.0",
@@ -354,7 +354,7 @@ const figures = [
 {
   name: "Perfect Cell 'Premium Color Edition'",
   image: "img/036.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Perfect-Cell-Premium-Color-Edition/",
   number: "036",
   year: 2017,
   bodyType: "1.5",
@@ -364,7 +364,7 @@ const figures = [
 {
   name: "Trunks \"Xenoverse Edition\"",
   image: "img/037.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Trunks-Xenoverse-Edition/",
   number: "037",
   year: 2017,
   bodyType: "2.0",
@@ -374,7 +374,7 @@ const figures = [
 {
   name: "Time Patroller \"Xenoverse Edition\"",
   image: "img/038.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Time-Patroller-Xenoverse-Edition/",
   number: "038",
   year: 2017,
   bodyType: "2.0",
@@ -384,7 +384,7 @@ const figures = [
 {
   name: "Vegeta",
   image: "img/039.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Vegeta-Scouter-V2/",
   number: "039",
   year: 2017,
   bodyType: "2.0",
@@ -394,7 +394,7 @@ const figures = [
 {
   name: "Son Goku \"Kaiohken Ver.\"",
   image: "img/040.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Kaiohken-Ver./",
   number: "040",
   year: 2017,
   bodyType: "1.0",
@@ -404,7 +404,7 @@ const figures = [
 {
   name: "Son Goku \"Kaiohken Ver.\"",
   image: "img/041.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Kaiohken-Ver.-SDCC/",
   number: "041",
   year: 2017,
   bodyType: "1.0",
@@ -412,19 +412,39 @@ const figures = [
   releaseType: "Exclusive Event SDCC"
 },
 {
+  name: "Nappa"",
+  image: "img/042.PNG",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Nappa/",
+  number: "042",
+  year: 2017,
+  bodyType: "2.0",
+  saga: "Dragon Ball Z",
+  releaseType: "Tamashii Web Exclusive"
+},
+{
+  name: "Super Saiyan 3 Son Goku",
+  image: "img/043.PNG",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-3-Son-Goku-V2/",
+  number: "043",
+  year: 2017,
+  bodyType: "2.0",
+  saga: "Dragon Ball Z",
+  releaseType: "Regular"
+},
+{
   name: "Shenron",
   image: "img/044.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Shenron/",
   number: "044",
   year: 2017,
-  bodyType: "Especial",
-  saga: "Dragon Ball Classic",
+  bodyType: "2.0",
+  saga: "Dragon Ball Z",
   releaseType: "Regular"
 },
 {
   name: "Super Saiyan God Son Goku",
   image: "img/045.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Son-Goku/",
   number: "045",
   year: 2017,
   bodyType: "2.0",
@@ -434,7 +454,7 @@ const figures = [
 {
   name: "Yamcha",
   image: "img/046.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Yamcha/",
   number: "046",
   year: 2017,
   bodyType: "2.0",
@@ -444,7 +464,7 @@ const figures = [
 {
   name: "Tenshinhan",
   image: "img/047.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Tenshinhan/",
   number: "047",
   year: 2017,
   bodyType: "2.0",
@@ -454,7 +474,7 @@ const figures = [
 {
   name: "Kid Son Goku",
   image: "img/048.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Gokou/",
   number: "048",
   year: 2018,
   bodyType: "Kid 1.0",
@@ -464,7 +484,7 @@ const figures = [
 {
   name: "Goku Black",
   image: "img/049.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Gokou-Black/",
   number: "049",
   year: 2018,
   bodyType: "2.0",
@@ -474,7 +494,7 @@ const figures = [
 {
   name: "Frieza (Resurrection)",
   image: "img/050.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Frieza/",
   number: "050",
   year: 2018,
   bodyType: "1.5",
@@ -484,7 +504,7 @@ const figures = [
 {
   name: "Majin Vegeta",
   image: "img/051.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Majin-Vegeta/",
   number: "051",
   year: 2018,
   bodyType: "2.0",
@@ -494,7 +514,7 @@ const figures = [
 {
   name: "Son Goku \"A Saiyan Raised on Earth\"",
   image: "img/052.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-a-Saiyan-raised-on-Earth/",
   number: "052",
   year: 2018,
   bodyType: "2.0",
@@ -504,7 +524,7 @@ const figures = [
 {
   name: "Kame Sennin",
   image: "img/053.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Kame-Sennin/",
   number: "053",
   year: 2018,
   bodyType: "Especial",
@@ -519,7 +539,7 @@ const figures = [
     saga: "Dragon Ball Super",
     number: "054",
     image: "img/054.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/054"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Super-Saiyan-Vegito-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Broly 'Event Exclusive Color Edition'",
@@ -529,7 +549,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "055",
     image: "img/055.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/055"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Broly-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Perfect Cell 'Event Exclusive Color Edition'",
@@ -539,7 +559,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "056",
     image: "img/056.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/056"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Perfect-Cell-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Majin-Boo",
@@ -549,7 +569,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "057",
     image: "img/057.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/057"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Majin-Boo/"
   },
   {
     name: "Bulma",
@@ -559,7 +579,7 @@ const figures = [
     saga: "Dragon Ball Classic",
     number: "058",
     image: "img/058.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/058"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Bulma/"
   },
   {
     name: "Super Saiyan Gotenks",
@@ -569,7 +589,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "059",
     image: "img/059.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/059"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Gotenks/"
   },
   {
     name: "Trunks",
@@ -579,7 +599,7 @@ const figures = [
     saga: "Dragon Ball Super",
     number: "060",
     image: "img/060.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/060"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Future-Trunks-Super/"
   },
   {
     name: "Klilyn",
@@ -589,7 +609,7 @@ const figures = [
     saga: "Dragon Ball Classic",
     number: "061",
     image: "img/061.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/061"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Klilyn-Kid/"
   },
   {
     name: "Mr. Satan",
@@ -599,7 +619,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "062",
     image: "img/062.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/062"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Mr.-Satan/"
   },
   {
     name: "Great Saiyaman",
@@ -609,7 +629,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "063",
     image: "img/063.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/063"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Great-Saiyaman/"
   },
   {
     name: "Majin Boo",
@@ -619,7 +639,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "064",
     image: "img/064.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/064"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Majin-Boo-Evil/"
   },
   {
     name: "Broly Fullpower",
@@ -629,7 +649,7 @@ const figures = [
     saga: "DB Super - Broly",
     number: "065",
     image: "img/065.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/065"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Broly-Fullpower/"
   },
   {
     name: "Super Saiyan God Super Saiyan Gogeta",
@@ -639,7 +659,7 @@ const figures = [
     saga: "DB Super - Broly",
     number: "066",
     image: "img/066.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/066"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Super-Saiyan-Gogeta/"
   },
   {
     name: "Super Saiyan God Super Saiyan Vegeta",
@@ -649,7 +669,7 @@ const figures = [
     saga: "DB Super - Broly",
     number: "067",
     image: "img/067.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/067"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Super-Saiyan-Vegeta-2019/"
   },
   {
     name: "Android no.21",
@@ -659,7 +679,7 @@ const figures = [
     saga: "DB FighterZ",
     number: "068",
     image: "img/068.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/068"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Android-no.21/"
   },
   {
   name: "Tamashii Stage Dragon Ball 'Event Exclusive Color Edition'",
@@ -670,7 +690,7 @@ const figures = [
   saga: "Dragon Ball Classic",
   number: null, // No tiene número de figura
   image: "img/Tamashii Stage Dragon Ball 'Event Exclusive Color Edition'.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/accessory-tamashii-stage"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Tamashii-Stage-Dragon-Ball-Event-Exclusive-Color-Edition/"
 },
 
   {
@@ -681,7 +701,7 @@ const figures = [
     saga: "Dragon Ball Classic",
     number: "069",
     image: "img/069.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/069"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Gokou-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Ultimate Son Gohan 'Event Exclusive Color Edition'",
@@ -691,7 +711,7 @@ const figures = [
     saga: "Dragon Ball Z",
     number: "070",
     image: "img/070.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/070"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Ultimate-Son-Gohan-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Golden Frieza 'Event Exclusive Color Edition'",
@@ -701,7 +721,7 @@ const figures = [
     saga: "DBZ - Resurection of F",
     number: "071",
     image: "img/071.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/071"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Golden-Frieza-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Gokou Black Super Saiyan Rose 'Event Exclusive Color Edition'",
@@ -711,7 +731,7 @@ const figures = [
     saga: "Dragon Ball Super",
     number: "072",
     image: "img/072.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/072"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Gokou-Black-Super-Saiyan-Rose-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Super Saiyan God Super Saiyan Son Goku",
@@ -721,7 +741,7 @@ const figures = [
     saga: "DB Super - Broly",
     number: "073",
     image: "img/073.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/073"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Super-Saiyan-Son-Goku-2019/"
   },
   {
     name: "Bulma 'Event Exclusive Color Edition'",
@@ -731,7 +751,7 @@ const figures = [
     saga: "Dragon Ball Classic",
     number: "074",
     image: "img/074.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/074"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Bulma-Event-Exclusive-Color-Edition/"
   },
   {
     name: "Zamasu 'Potara'",
@@ -741,7 +761,7 @@ const figures = [
     saga: "Dragon Ball Super",
     number: "075",
     image: "img/075.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/075"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Zamasu-Potara/"
   },
   {
     name: "Broly \"Super\"",
@@ -751,12 +771,12 @@ const figures = [
     saga: "DB Super - Broly",
     number: "076",
     image: "img/076.PNG",
-    link: "https://tu-enlace-a-la-ficha.com/076"
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Broly-Super/"
   },
    {
     name: "Piccolo Daimaoh",
     image: "img/077.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-Daimaoh/",
     number: "077",
     year: 2019,
     bodyType: "2.5",
@@ -766,7 +786,7 @@ const figures = [
   {
     name: "Bulma 'Adventure Begins'",
     image: "img/078.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Bulma-Adventure-Begins/",
     number: "078",
     year: 2019,
     bodyType: "1.5",
@@ -776,7 +796,7 @@ const figures = [
   {
     name: "Jiren",
     image: "img/079.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Jiren/",
     number: "079",
     year: 2020,
     bodyType: "3.0",
@@ -786,7 +806,7 @@ const figures = [
   {
     name: "TaoPaiPai",
     image: "img/080.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Tao-Pai-Pai/",
     number: "080",
     year: 2020,
     bodyType: "3.0",
@@ -796,7 +816,7 @@ const figures = [
   {
     name: "Son Goku Ultra Instinct",
     image: "img/081.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Ultra-Instinct/",
     number: "081",
     year: 2020,
     bodyType: "2.0",
@@ -806,7 +826,7 @@ const figures = [
   {
     name: "Jackie-Chun",
     image: "img/082.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Jackie-Chun/",
     number: "082",
     year: 2020,
     bodyType: "Especial",
@@ -816,7 +836,7 @@ const figures = [
   {
     name: "Son Goku 'Kaioken'",
     image: "img/083.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Kaioken/",
     number: "083",
     year: 2020,
     bodyType: "2.0",
@@ -826,7 +846,7 @@ const figures = [
   {
     name: "Son Goku 'Kid Era' 'Adventure Begins'",
     image: "img/084.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Kid-Era-Adeventure-Begins/",
     number: "084",
     year: 2020,
     bodyType: "Kid 1.0",
@@ -842,12 +862,12 @@ const figures = [
   saga: "Dragon Ball Classic",
   number: null,          // sin número de figura
   image: "img/Tamashii Stage Dragon Ball 'Event Exclusive Metallic Color Edition'.PNG",  // ideal usar nombre archivo simple y sin espacios
-  link: "https://tu-enlace-a-la-ficha.com/accessory-tamashii-stage"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Tamashii-Stage-Dragon-Ball-Event-Exclusive-Metallic-Color-Edition/"
 },
   {
     name: "Son Goku Ultra Instinct 'Sign' 'Event Exclusive Color Edition'",
     image: "img/085.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Ultra-Instinct-Sign-Event-Exclusive-Color-Edition/",
     number: "085",
     year: 2020,
     bodyType: "2.0",
@@ -857,7 +877,7 @@ const figures = [
   {
     name: "Android no.17 'Event Exclusive Color Edition'",
     image: "img/086.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Android-no.17-Event-Exclusive-Color-Edition/",
     number: "086",
     year: 2020,
     bodyType: "1.5",
@@ -867,7 +887,7 @@ const figures = [
   {
     name: "Android no.18 'Event Exclusive Color Edition'",
     image: "img/087.PNG",
-    link: "#",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Android-no.18-Event-Exclusive-Color-Edition/",
     number: "087",
     year: 2020,
     bodyType: "1.5",
@@ -882,7 +902,7 @@ const figures = [
   saga: "Dragon Ball Z",
   number: "088",
   image: "img/088.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/ginyu"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Ginyu/"
 },
 {
   name: "Great Ape Vegeta",
@@ -892,7 +912,7 @@ const figures = [
   saga: "Dragon Ball Z",
   number: "089",
   image: "img/089.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/great-ape-vegeta"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Great-Ape-Vegeta/"
 },
 {
   name: "Chi Chi 'Kid Era'",
@@ -902,7 +922,7 @@ const figures = [
   saga: "Dragon Ball Classic",
   number: "090",
   image: "img/090.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/chi-chi-kid-era"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Chi-Chi-Kid-Era/"
 },
 {
   name: "Jiren 'Final Battle'",
@@ -912,7 +932,7 @@ const figures = [
   saga: "Dragon Ball Super",
   number: "091",
   image: "img/091.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/jiren-final-battle"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Jiren-Final-Battle/"
 },
 {
   name: "Bulma's motorcycle 'Hoipoi capsule No.9'",
@@ -924,7 +944,7 @@ const figures = [
   saga: "Dragon Ball Classic",
   number: null,
   image: "img/Bulma's motorcycle 'Hoipoi capsule No.9'.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/bulmas-motorcycle"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Bulmas-motorcycle-Hoipoi-capsule-No.9/"
 },
 {
   name: "Super Saiyan God Super Saiyan Vegito",
@@ -934,7 +954,7 @@ const figures = [
   saga: "Dragon Ball Super",
   number: "092",
   image: "img/092.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/ssgss-vegito"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-God-Super-Saiyan-Vegito/"
 },
 {
   name: "Zamasu",
@@ -944,7 +964,7 @@ const figures = [
   saga: "Dragon Ball Super",
   number: "093",
   image: "img/093.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/zamasu"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Zamasu/"
 },
 {
   name: "Piccolo \"The proud Namekian\"",
@@ -954,7 +974,7 @@ const figures = [
   saga: "Dragon Ball Z",
   number: "094",
   image: "img/094.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/piccolo-proud-namekian"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-The-proud-Namekian/"
 },
 {
   name: "Son Gohan \"Kid era\"",
@@ -964,7 +984,7 @@ const figures = [
   saga: "Dragon Ball Z",
   number: "095",
   image: "img/095.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/son-gohan-kid-era"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Gohan-Kid-era/"
 },
 {
   name: "Jeice",
@@ -974,7 +994,7 @@ const figures = [
   saga: "Dragon Ball Z",
   number: "096",
   image: "img/096.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/jeice"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Jiece/"
 },
 {
   name: "Bardock",
@@ -984,7 +1004,7 @@ const figures = [
   saga: "Dragon Ball Z",
   number: "097",
   image: "img/097.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/bardock"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Bardock/"
 },
 {
   name: "Recoome",
@@ -994,7 +1014,7 @@ const figures = [
   saga: "Dragon Ball Z",
   number: "098",
   image: "img/098.PNG",
-  link: "https://tu-enlace-a-la-ficha.com/recoome"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Reecome/"
 },
 {
   name: "Raditz",
