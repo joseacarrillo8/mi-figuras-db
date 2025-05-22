@@ -414,7 +414,7 @@ const figures = [
 {
   name: "Nappa"",
   image: "img/042.PNG",
-  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Nappa/",
+  link: "#",
   number: "042",
   year: 2017,
   bodyType: "2.0",
@@ -424,7 +424,7 @@ const figures = [
 {
   name: "Super Saiyan 3 Son Goku",
   image: "img/043.PNG",
-  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-3-Son-Goku-V2/",
+  link: "#",
   number: "043",
   year: 2017,
   bodyType: "2.0",
