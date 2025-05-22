@@ -2239,7 +2239,7 @@ function populateReleaseFilter() {
 
 
 
-function renderFigures() {
+async function renderFigures() {
   const container = document.getElementById('figures-container');
   const search = document.getElementById('search').value.toLowerCase();
   const have = document.getElementById('filterHave').value;
@@ -2248,9 +2248,10 @@ function renderFigures() {
   const release = document.getElementById('filterRelease').value;
   const altVersionFilter = document.getElementById('filterAltVersion').checked;
   const onlyAccessories = document.getElementById('filterAccessory').checked;
-  const review = loadReview();
-
+  
+  const review = await loadReview();
   const collection = await loadCollection();
+  const prices = await loadPrices(); 
   container.innerHTML = "";
 
  let filtered = figures.filter(f =>
@@ -2315,7 +2316,7 @@ function renderFigures() {
     };
     div.appendChild(btn);
 	
-const review = loadReview();
+
 const altVersionCheckbox = document.createElement('label');
 altVersionCheckbox.style.display = 'block';
 altVersionCheckbox.style.marginTop = '5px';
@@ -2334,7 +2335,7 @@ altVersionCheckbox.appendChild(document.createTextNode(' La tengo en otra versi�
 
 div.appendChild(altVersionCheckbox);
 
-const prices = loadPrices();
+
 const priceInput = document.createElement('input');
 priceInput.type = 'number';
 priceInput.placeholder = 'Precio medio (€)';
@@ -2360,7 +2361,7 @@ div.appendChild(priceInput);
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async() => {
 	// Poblar automáticamente el filtro de sagas
   populateSagaFilter();
   populateYearFilter();
