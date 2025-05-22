@@ -2399,6 +2399,47 @@ document.addEventListener('DOMContentLoaded', async() => {
 
 });
 
+document.getElementById('exportDataBtn').addEventListener('click', async () => {
+  const collection = await loadCollection();
+  const review = await loadReview();
+  const prices = await loadPrices();
+
+  const data = { collection, review, prices };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'figures-data.json';
+  a.click();
+
+  URL.revokeObjectURL(url);
+});
+
+document.getElementById('importDataBtn').addEventListener('click', () => {
+  document.getElementById('importDataInput').click();
+});
+
+document.getElementById('importDataInput').addEventListener('change', async (event) => {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = async (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (data.collection) await saveCollection(data.collection);
+      if (data.review) await saveReview(data.review);
+      if (data.prices) await savePrices(data.prices);
+
+      alert("Datos importados correctamente.");
+      renderFigures();
+    } catch (err) {
+      alert("Error al importar los datos. Asegúrate de que el archivo sea válido.");
+    }
+  };
+  reader.readAsText(file);
+});
 
 
 
