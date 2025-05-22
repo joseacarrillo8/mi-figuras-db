@@ -2133,23 +2133,51 @@ const figures = [
 
 ];
 
-function loadCollection() {
-  return JSON.parse(localStorage.getItem('myCollection')) || {};
+function getUserId() {
+  let uid = localStorage.getItem("userId");
+  if (!uid) {
+    uid = crypto.randomUUID();
+    localStorage.setItem("userId", uid);
+  }
+  return uid;
 }
-function saveCollection(collection) {
-  localStorage.setItem('myCollection', JSON.stringify(collection));
+
+async function loadCollection() {
+  const { doc, getDoc } = window.firebaseDocs;
+  const uid = getUserId();
+  const ref = doc(window.db, "collections", uid);
+  const snap = await getDoc(ref);
+  return snap.exists() ? snap.data() : {};
 }
-function loadReview() {
-  return JSON.parse(localStorage.getItem('myReview')) || {};
+async function saveCollection(data) {
+  const { doc, setDoc } = window.firebaseDocs;
+  const uid = getUserId();
+  await setDoc(doc(window.db, "collections", uid), data);
 }
-function saveReview(review) {
-  localStorage.setItem('myReview', JSON.stringify(review));
+async function loadReview() {
+  const { doc, getDoc } = window.firebaseDocs;
+  const uid = getUserId();
+  const ref = doc(window.db, "reviews", uid);
+  const snap = await getDoc(ref);
+  return snap.exists() ? snap.data() : {};
 }
-function loadPrices() {
-  return JSON.parse(localStorage.getItem('myPrices')) || {};
+async function saveReview(data) {
+  const { doc, setDoc } = window.firebaseDocs;
+  const uid = getUserId();
+  await setDoc(doc(window.db, "reviews", uid), data);
 }
-function savePrices(prices) {
-  localStorage.setItem('myPrices', JSON.stringify(prices));
+async function loadPrices() {
+  const { doc, getDoc } = window.firebaseDocs;
+  const uid = getUserId();
+  const ref = doc(window.db, "prices", uid);
+  const snap = await getDoc(ref);
+  return snap.exists() ? snap.data() : {};
+}
+
+async function savePrices(data) {
+  const { doc, setDoc } = window.firebaseDocs;
+  const uid = getUserId();
+  await setDoc(doc(window.db, "prices", uid), data);
 }
 
 function populateSagaFilter() {
@@ -2222,7 +2250,7 @@ function renderFigures() {
   const onlyAccessories = document.getElementById('filterAccessory').checked;
   const review = loadReview();
 
-  const collection = loadCollection();
+  const collection = await loadCollection();
   container.innerHTML = "";
 
  let filtered = figures.filter(f =>
@@ -2343,7 +2371,7 @@ document.addEventListener('DOMContentLoaded', () => {
     el.addEventListener('change', renderFigures);
   });
 
-  renderFigures();
+  await renderFigures();
 
   // Código del botón scroll-top
   const scrollBtn = document.getElementById("scrollTopBtn");
