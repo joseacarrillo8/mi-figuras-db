@@ -4,13 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mi colección S.H. Figuarts Dragon Ball</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
 <h1>Mi colección S.H. Figuarts Dragon Ball</h1>
 <button id="toggleFilters">Mostrar / Ocultar filtros</button>
-
 <div id="filters-container">
   <div id="filters">
     <div id="figuresCount" style="margin-top: 10px; font-weight: bold;">
@@ -40,12 +39,14 @@
       <option value="numberDesc">Número (desc)</option>
     </select>
     <label class="checkbox-container">
-      <input type="checkbox" id="filterAltVersion" class="styled-checkbox"/>
-      <span class="checkmark"></span> La tengo en otra versión
+      <input type="checkbox" id="filterAltVersion" class="styled-checkbox" />
+      <span class="checkmark"></span>
+      La tengo en otra versión
     </label>
     <label class="checkbox-container">
       <input type="checkbox" id="filterAccessory" class="styled-checkbox">
-      <span class="checkmark"></span> Mostrar solo accesorios
+      <span class="checkmark"></span>
+      Mostrar solo accesorios
     </label>
   </div>
 </div>
@@ -53,25 +54,10 @@
 <div id="figures-container"></div>
 <button id="scrollTopBtn" title="Volver arriba">↑</button>
 
-<!-- Firebase SDKs -->
-<script src="https://www.gstatic.com/firebasejs/11.7.3/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/11.7.3/firebase-firestore-compat.js"></script>
+<!-- Firebase SDK -->
+<script type="module" src="js/firebase-init.js"></script>
+<!-- Tu JS principal -->
+<script type="module" src="js/script.js"></script>
 
-<script>
-  const firebaseConfig = {
-    apiKey: "AIzaSyB9IwlIc-r-X3U2NqQArFZlH9d8lFp7PXo",
-    authDomain: "figuras-db.firebaseapp.com",
-    projectId: "figuras-db",
-    storageBucket: "figuras-db.appspot.com",
-    messagingSenderId: "9650763402",
-    appId: "1:9650763402:web:0f0aa2deb20701e3475f73"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-  const db = firebase.firestore();
-  window.db = db;
-</script>
-
-<script src="js/script.js"></script>
 </body>
 </html>
