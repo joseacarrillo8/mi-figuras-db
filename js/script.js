@@ -2,7 +2,7 @@ const figures = [
   {
     name: "Piccolo",
     image: "img/001.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-The-First-Dragon-Ball-S.H.-Figuarts/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-El-primer-SH-Figuarts-de-Dragon-Ball/",
     number: "001",
     year: 2009,
     bodyType: "1.0",
@@ -12,7 +12,7 @@ const figures = [
   {
     name: "Super Saiyan Son Goku",
     image: "img/002.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/goku-ssj-2010/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Goku/",
     number: "002",
     year: 2010,
     bodyType: "1.0",
@@ -22,7 +22,7 @@ const figures = [
   {
     name: "Super Saiyan Son Gohan",
     image: "img/003.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/gohan-ssj-2010/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Gohan/",
     number: "003",
     year: 2010,
     bodyType: "1.0",
@@ -33,7 +33,7 @@ const figures = [
   {
     name: "Super Saiyan Son Goku (Special Color Edition)",
     image: "img/004.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/goku-ssj-sdcc-2011/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Goku-Special-Color-Edition/",
     number: "004",
     year: 2011,
     bodyType: "1.0",
@@ -43,7 +43,7 @@ const figures = [
   {
     name: "Super Saiyan Vegeta",
     image: "img/005.PNG",
-    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/super-saiyan-vegeta/",
+    link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Vegeta/",
     number: "005",
     year: 2011,
     bodyType: "1.0",
@@ -53,7 +53,7 @@ const figures = [
   {
   name: "Super Saiyan 3 Son Goku",
   image: "img/006.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-3-Son-Goku/",
   number: "006",
   year: 2012,
   bodyType: "1.0",
@@ -63,7 +63,7 @@ const figures = [
 {
   name: "Trunks",
   image: "img/007.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Trunks/",
   number: "007",
   year: 2012,
   bodyType: "1.5",
@@ -73,7 +73,7 @@ const figures = [
 {
   name: "Super Saiyan Son Gohan (Special Color Edition)",
   image: "img/008.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Super-Saiyan-Son-Gohan-Special-Color-Edition/",
   number: "008",
   year: 2012,
   bodyType: "1.0",
@@ -83,7 +83,7 @@ const figures = [
 {
   name: "Perfect Cell",
   image: "img/009.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Perfect-Cell/",
   number: "009",
   year: 2012,
   bodyType: "1.5",
@@ -93,7 +93,7 @@ const figures = [
 {
   name: "Vegeta",
   image: "img/010.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Vegeta-00001/",
   number: "010",
   year: 2013,
   bodyType: "1.0",
@@ -103,7 +103,7 @@ const figures = [
 {
   name: "Final Form Frieza",
   image: "img/011.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Final-Form-Frieza/",
   number: "011",
   year: 2013,
   bodyType: "1.5",
@@ -113,7 +113,7 @@ const figures = [
 {
   name: "Piccolo (Special color edition)",
   image: "img/012.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Piccolo-Special-color-edition/",
   number: "012",
   year: 2013,
   bodyType: "1.0",
@@ -123,7 +123,7 @@ const figures = [
 {
   name: "Klilyn",
   image: "img/013.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Klilyn/",
   number: "013",
   year: 2013,
   bodyType: "1.5",
@@ -133,7 +133,7 @@ const figures = [
 {
   name: "Son Goku",
   image: "img/014.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku/",
   number: "014",
   year: 2014,
   bodyType: "1.0",
@@ -143,7 +143,7 @@ const figures = [
 {
   name: "Android no.18",
   image: "img/015.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Android-no.18/",
   number: "015",
   year: 2014,
   bodyType: "1.0",
@@ -153,7 +153,7 @@ const figures = [
 {
   name: "Son Goku 'México 2015'",
   image: "img/016.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Mexico-2015/",
   number: "016",
   year: 2014,
   bodyType: "1.0",
@@ -163,7 +163,7 @@ const figures = [
 {
   name: "Vegeta «Original Animation Color Edition»",
   image: "img/017.PNG",
-  link: "#",
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Vegeta-Original-Animation-Color-Edition/",
   number: "017",
   year: 2014,
   bodyType: "1.0",
