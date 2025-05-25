@@ -1718,7 +1718,7 @@ const figures = [
   saga: "Dragon Ball Super",
   number: "163",
   image: "img/163.PNG",
-  link: https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Ultra-Instinct-Toyotaro-Edition/"
+  link: "https://www.listacompletade.com/dragon-ball/figuras/s.h.-figuarts/Son-Goku-Ultra-Instinct-Toyotaro-Edition/"
 },
 {
   name: "Super Saiyan God Super Saiyan Vegeta 'S.H. Figuarts 15 Anniversary Ver.'",
